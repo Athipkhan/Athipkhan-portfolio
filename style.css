@@ -203,3 +203,49 @@ body.dark a {
     padding: 10px;
   }
 }
+/* Desktop view enhancements */
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+    padding: 40px;
+  }
+
+  nav a {
+    padding: 12px 18px;
+    font-size: 18px;
+  }
+
+  section, footer {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .project, .profile, .contribution {
+    padding: 25px;
+    border-radius: 12px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  table {
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  .toggle-theme {
+    padding: 12px 20px;
+    font-size: 16px;
+  }
+}
